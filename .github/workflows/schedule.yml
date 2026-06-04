@@ -2,8 +2,8 @@ name: Morning Happiness Bot
 
 on:
   schedule:
-    # This runs at 23:00 UTC, which is 7:00 AM SGT (Singapore Time)
-    - cron: '17 20 * * *'
+    # This runs at 23:00 UTC, which is 8:30 AM SGT (Singapore Time)
+    - cron: '17 22 * * *'
   workflow_dispatch: # This adds a manual 'Run' button so you can test it immediately
 
 jobs:
